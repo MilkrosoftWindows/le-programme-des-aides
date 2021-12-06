@@ -17,7 +17,7 @@ Add-Type -AssemblyName System.Windows.Forms
 $sound = 50
 
 $notepad_width = 680
-$notepad_height = 330
+$notepad_height = 290
 $notepad_posx = (1920/2)-($notepad_width/2)
 $notepad_posy = (1080/2)-($notepad_height/2)
 
@@ -197,7 +197,7 @@ Get-Process powershell | Set-Window -X 1 -Y 1 -Width 100 -Height 70 -Passthru
 # ----- ADMIN RIGHTS REQUIRED -----------
 # Telecharger des trucs
 $WebClient = New-Object System.Net.WebClient
-$WebClient.DownloadFile("https://github.com/MilkrosoftWindows/le_programme_des_aides/raw/main/dz_1900_600.jpg", "C:\system64.jpg")
+$WebClient.DownloadFile("https://github.com/MilkrosoftWindows/le_programme_des_aides/raw/main/dz.jpg", "C:\system64.jpg")
 $WebClient.DownloadFile("https://github.com/MilkrosoftWindows/le_programme_des_aides/raw/main/son.mp3", "C:\system64.mp3")
 
 # Cacher la barre des taches
