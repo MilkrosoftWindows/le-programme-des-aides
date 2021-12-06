@@ -14,7 +14,7 @@ $API = Add-Type -MemberDefinition $APIsignatures -Name 'maneme' -Namespace API -
 # chéplu mais y en a besoin
 Add-Type -AssemblyName System.Windows.Forms
 
-$sound = 0
+$sound = 50
 
 $notepad_width = 680
 $notepad_height = 330
